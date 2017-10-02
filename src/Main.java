@@ -4,7 +4,7 @@ import java.util.Random;
 import javax.crypto.Cipher;
 import javax.crypto.NoSuchPaddingException;
 
-class Main {
+class Main 
 
 	public String foo;
 	public String bar;
