@@ -1,0 +1,14 @@
+path_classifiers:
+  something:
+  - /test.py
+  foobar:
+  - /another/file.py
+  - /yet/another/file.py
+queries:
+  - include: java/random-used-once
+  - include: java/weak-cryptographic-algorithm
+  - include: java/unsafe-sync-on-field
+  - exclude: js/superfluous-trailing-arguments
+  - include: js/misspelled-identifier
+  - include: js/duplicate-variable-declaration
+  - include: js/automatic-semicolon-insertion
